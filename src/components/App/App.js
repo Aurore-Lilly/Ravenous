@@ -10,8 +10,8 @@ class App extends React.Component {
   constructor(props){
     super(props);
     this.state = {
-      businesses: [],
-    };
+      businesses: []
+    }
     this.searchYelp = this.searchYelp.bind(this);
   }
   searchYelp(term, location, sortBy){
@@ -28,6 +28,6 @@ class App extends React.Component {
     </div>
     );
   }
-}
+};
 
 export default App;
